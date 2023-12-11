@@ -2,6 +2,7 @@
 
 mod fq_codel;
 mod ingress;
+mod taprio;
 
 pub use self::fq_codel::{
     TcFqCodelClStats, TcFqCodelClStatsBuffer, TcFqCodelQdStats,
@@ -9,3 +10,7 @@ pub use self::fq_codel::{
     TcQdiscFqCodelOption,
 };
 pub use self::ingress::{TcQdiscIngress, TcQdiscIngressOption};
+pub use self::taprio::{
+    TaprioScheduleEntry, TaprioScheduleEntryItem, TaprioTcEntry, TcPriomap,
+    TcQdiscTaprio, TcQdiscTaprioOption,
+};

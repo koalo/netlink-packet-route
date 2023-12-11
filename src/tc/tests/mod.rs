@@ -10,3 +10,5 @@ mod filter_u32;
 mod qdisc_fq_codel;
 #[cfg(test)]
 mod qdisc_ingress;
+#[cfg(test)]
+mod qdisc_taprio;

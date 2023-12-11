@@ -24,9 +24,11 @@ pub use self::header::{TcHandle, TcHeader, TcMessageBuffer};
 pub use self::message::TcMessage;
 pub use self::options::TcOption;
 pub use self::qdiscs::{
+    TaprioScheduleEntry, TaprioScheduleEntryItem, TaprioTcEntry,
     TcFqCodelClStats, TcFqCodelClStatsBuffer, TcFqCodelQdStats,
-    TcFqCodelQdStatsBuffer, TcFqCodelXstats, TcQdiscFqCodel,
-    TcQdiscFqCodelOption, TcQdiscIngress, TcQdiscIngressOption,
+    TcFqCodelQdStatsBuffer, TcFqCodelXstats, TcPriomap, TcQdiscFqCodel,
+    TcQdiscFqCodelOption, TcQdiscIngress, TcQdiscIngressOption, TcQdiscTaprio,
+    TcQdiscTaprioOption,
 };
 pub use self::stats::{
     TcStats, TcStats2, TcStatsBasic, TcStatsBasicBuffer, TcStatsBuffer,
