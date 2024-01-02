@@ -19,7 +19,8 @@ anyhow = "1.0.31"
 byteorder = "1.3.2"
 libc = "0.2.66"
 log = { version = "0.4.20", features = ["std"] }
-netlink-packet-core = { version = "0.7.0" }
+#netlink-packet-core = { version = "0.7.0" }
+netlink-packet-core = { git = "https://github.com/koalo/netlink-packet-core", branch = "devel/koalo/ext-ack" }
 #netlink-packet-utils = { version = "0.5.2" }
 netlink-packet-utils = { git = "https://github.com/koalo/netlink-packet-utils", branch = "devel/koalo/add-i64" }
 
